@@ -1,0 +1,219 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#logo{
+    /* width: 20%; */
+    margin-left: 4%;
+    /* margin-bottom: 50%; */
+    /* padding: 10px; */
+    /* margin-top: -100%; */
+   
+    
+}
+.body{
+    background-color: #e6fcf5;
+    color:black;;
+}
+/* .navbar{
+    margin-left: 63%;
+    margin-top: -25%;
+    padding: 10px;
+} */
+.nav{
+    display: flex;
+    padding-top: 4%;
+    /* justify-content: space-between; */
+    /* text-align: center; */
+    /* margin-top: -10%; */
+}
+.nav #brand{
+    margin-left: -40%;
+}
+
+#brand{
+    width: 45%;
+    margin-top: 10%;
+    height: 10%;
+    /* margin-bottom:3.6%; */
+    margin-left: -45%;
+    
+}
+.about{
+    text-align: center;
+    color:black;
+    background-color: #c3fae8;
+    /* color:#88c794; */
+    color: #087f5b;
+    border-radius: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: -5%;
+    /* margin-bottom: 3%; */
+
+}
+#pic{
+    width: 85%;
+    margin-left: 5%;
+    border-radius: 115px;
+    margin-top: -3%;
+    
+}
+.us{
+    display: grid;
+    grid-template-columns: repeat(2, 1.5fr);
+}
+.kijani{
+    /* color: black; */
+    color: #087f5b;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10%;
+  margin-left: -5%;
+  line-height: 33px;
+  margin-top: -1%;
+  font-size: 20px;
+  font-weight: 900;
+}
+#hr{
+    text-decoration: underline;
+    border-bottom: 1px solid #88c794;
+}
+.about span{
+    border-bottom: #88c794 dotted 5px;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: -5%;
+}
+.f-v{
+    display: flex;
+    /* grid-template-columns: 300px 300px; */
+    gap: 5%;
+    /* width: 900px; */
+    /* height: 200px; */
+    padding-left: 20%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    background: url(pictures/in.jpg);
+    opacity: 70%;
+    color: black;
+}
+
+
+
+
+/* ****************OUR TEAM ********************* */
+
+#our {
+    margin-top: 3%;
+    margin-bottom: 4%;
+    padding-left: 42%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-weight: 900;
+    font-size: 40px;
+    background-color: #c3fae8;
+    color:#087f5b;
+    border-radius: 20px;
+
+    
+}
+.team div img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+#our span{
+    border-bottom: #88c794 dotted 4px;
+}
+.team {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    gap: 7%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    padding-left: 15%;
+  
+}
+.team div p{
+    font-weight: 900;
+    font-size: 18px;
+    color: #087f5b;
+}
+#intouch{
+    text-align: center;
+    font-weight: bolder;
+    color: #087f5b;
+    border-bottom:#88c794 solid 1px;
+    margin: 0 33% 4% 33%;
+}
+/*  */
+
+.form{
+    margin-left: 34%;
+    font-size: 20px;
+    color: #087f5b;
+}
+.form input{
+    border-bottom: #2b8a3e dotted 3px;
+    font-size: 15px;
+}
+/* contact us       */
+input{
+    padding: 2% 12%;
+    border-radius: 15px;
+    border-style: none;
+    font-weight: bolder;
+    color: #087f5b;
+}
+textarea{
+    border-style: none;
+}
+ #touch{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 1%;
+} 
+
+
+#message{
+    margin-top: 3%;
+   /* margin-left: %; */
+    /* width: 51%;
+    height: 10%; */
+    border-bottom-right-radius: 30%;
+    padding: 3% 12% 3% 8%;
+
+}
+.submit{
+
+    font-weight: bold;
+    font-size: x-large;
+   
+    cursor: pointer;
+
+        background-color:#087f5b ;
+        padding: 17px 50px 17px 50px;
+        border-radius: 15px;
+        border-style: none;
+        margin-right: 10%;
+        margin-left: 13%;
+        margin-bottom: 10%;
+        color: #B2F2BB;
+    
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    gap: 9%;
+    margin-top: 6%;
+    margin-left: 10%;
+    color: #087F5B;
+    font-weight: bold;
+}
+footer{
+    padding:2% 20%;
+    border-top: #087F5B solid 1px;
+}
